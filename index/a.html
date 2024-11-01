@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Learning</title>
+    <!-- Liên kết tới file CSS -->
+    <link rel="stylesheet" href="../styles/a.css" />
+  </head>
+  <body>
+    <!-- Phần đầu trang -->
+    <div class="header">
+      <h1>My Learning</h1>
+      <p>
+        87hr 36min watched •
+        <a href="#" style="color: #ccc">View all activity</a>
+      </p>
+    </div>
+
+    <!-- Thanh điều hướng -->
+    <div class="nav-bar">
+      <a href="#">All courses</a>
+      <a href="#" onclick="goToLearningPaths()">Learning paths</a>
+      <a href="#">Certifications</a>
+      <a href="#">Archived</a>
+      <a href="#">Learning tools</a>
+    </div>
+
+    <!-- Khu vực hiển thị các Learning Paths -->
+    <div class="learning-paths">
+      <div class="learning-card">
+        <img src="../image/fpt-logo.png" alt="FPT Logo" style="width: 50px" />
+        <h2>Induction Training_GAAFOFY (VI)</h2>
+        <p class="progress">1 of 6 items complete</p>
+        <div class="progress-bar">
+          <span style="width: 16%"></span>
+          <!-- Tùy chỉnh tỉ lệ hoàn thành -->
+        </div>
+      </div>
+
+      <div class="learning-card">
+        <img src="../image/fpt-logo.png" alt="FPT Logo" style="width: 50px" />
+        <h2>Induction Training for BO_IT_Mandatory (VI)</h2>
+        <p class="progress">9 of 9 items complete</p>
+        <div class="progress-bar">
+          <span style="width: 100%"></span>
+          <!-- Tùy chỉnh tỉ lệ hoàn thành -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Liên kết tới file JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

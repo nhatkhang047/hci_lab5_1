@@ -1,0 +1,87 @@
+/* CSS cho nút điều hướng */
+.nav-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+/* CSS cho trang học tập */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+.header {
+  text-align: left;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+.header h1 {
+  margin: 0;
+}
+.header p {
+  margin: 5px 0;
+}
+.nav-bar {
+  display: flex;
+
+  background-color: #444;
+  padding: 10px 0;
+  text-align: left;
+}
+.nav-bar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-bar a:hover {
+  color: #ccc;
+}
+
+.learning-paths {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.learning-card {
+  width: 300px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.learning-card h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+.progress {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+.progress-bar {
+  height: 4px;
+  background-color: #ddd;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.progress-bar span {
+  display: block;
+  height: 100%;
+  background-color: #6a0dad;
+  width: 50%; /* Tỉ lệ hoàn thành */
+}
